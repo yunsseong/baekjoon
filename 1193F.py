@@ -5,8 +5,7 @@
 
 frac = []
 def mix(a, b):
-    return f'{a}/{b}'
-    
+    return f'{a}/{b}' 
 for i in range(1, 1000):
     tmp = [j for j in range(1, i + 1)]
     if i % 2 != 0:
